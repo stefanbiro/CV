@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proiect.SelectezController">
+<children><Button layoutX="847.0" layoutY="610.0" mnemonicParsing="false" onAction="#iesire" text="Delogare" AnchorPane.bottomAnchor="59.0" AnchorPane.rightAnchor="88.0" /><Button fx:id="m1" layoutX="390.0" layoutY="55.0" mnemonicParsing="false" onAction="#masa1" prefHeight="184.0" prefWidth="204.0" text="MASA1">
+<font>
+<Font name="System Bold Italic" size="24.0" />
+</font></Button><Button fx:id="m2" layoutX="154.0" layoutY="291.0" mnemonicParsing="false" onAction="#masa2" prefHeight="184.0" prefWidth="204.0" text="MASA2">
+<font>
+<Font name="System Bold Italic" size="25.0" />
+</font></Button>
+<Button fx:id="m3" layoutX="627.0" layoutY="291.0" mnemonicParsing="false" onAction="#masa3" prefHeight="184.0" prefWidth="204.0" text="MASA3">
+<font>
+<Font name="System Bold Italic" size="25.0" />
+</font>
+</Button>
+</children></AnchorPane>

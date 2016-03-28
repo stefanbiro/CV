@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proiect.proiectController">
+<children><TitledPane animated="false" layoutX="48.0" layoutY="22.0" prefHeight="624.0" prefWidth="841.0" text="Logare">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="500.0" prefWidth="500.0">
+<children><AnchorPane layoutX="127.0" layoutY="98.0" prefHeight="500.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+<children><Button layoutX="46.0" layoutY="62.0" mnemonicParsing="false" onAction="#unu" prefHeight="68.0" prefWidth="73.0" text="1">
+<font>
+<Font name="System Bold Italic" size="15.0" />
+</font></Button><Button layoutX="158.5" layoutY="61.0" mnemonicParsing="false" onAction="#doi" prefHeight="68.0" prefWidth="73.0" text="2">
+<font>
+<Font name="System Bold Italic" size="15.0" />
+</font></Button>
+<Button layoutX="276.0" layoutY="62.0" mnemonicParsing="false" onAction="#trei" prefHeight="68.0" prefWidth="73.0" text="3">
+<font>
+<Font name="System Bold Italic" size="15.0" />
+</font>
+</Button>
+<Button layoutX="382.0" layoutY="62.0" mnemonicParsing="false" onAction="#patru" prefHeight="68.0" prefWidth="73.0" text="4">
+<font>
+<Font name="System Bold Italic" size="15.0" />
+</font>
+</Button>
+<Button layoutX="46.0" layoutY="155.0" mnemonicParsing="false" onAction="#cinci" prefHeight="68.0" prefWidth="73.0" text="5">
+<font>
+<Font name="System Bold Italic" size="15.0" />
+</font>
+</Button>
+<Button layoutX="159.0" layoutY="155.0" mnemonicParsing="false" onAction="#sase" prefHeight="68.0" prefWidth="73.0" text="6">
+<font>
+<Font name="System Bold Italic" size="15.0" />
+</font>
+</Button>
+<Button layoutX="276.0" layoutY="155.0" mnemonicParsing="false" onAction="#sapte" prefHeight="68.0" prefWidth="73.0" text="7">
+<font>
+<Font name="System Bold Italic" size="15.0" />
+</font>
+</Button>
+<Button layoutX="382.0" layoutY="155.0" mnemonicParsing="false" onAction="#opt" prefHeight="68.0" prefWidth="73.0" text="8">
+<font>
+<Font name="System Bold Italic" size="15.0" />
+</font>
+</Button>
+<Button layoutX="159.0" layoutY="261.0" mnemonicParsing="false" onAction="#noua" prefHeight="68.0" prefWidth="73.0" text="9">
+<font>
+<Font name="System Bold Italic" size="15.0" />
+</font>
+</Button>
+<Button layoutX="276.0" layoutY="261.0" mnemonicParsing="false" onAction="#zero" prefHeight="68.0" prefWidth="73.0" text="0">
+<font>
+<Font name="System Bold Italic" size="15.0" />
+</font>
+</Button><Button layoutX="685.0" layoutY="496.0" mnemonicParsing="false" onAction="#exit" text="Iesire">
+<font>
+<Font name="System Bold Italic" size="15.0" />
+</font></Button><Button layoutX="361.0" layoutY="387.0" mnemonicParsing="false" onAction="#verificaParola" prefHeight="39.0" prefWidth="165.0" text="Verifica parola">
+<font>
+<Font name="System Bold Italic" size="15.0" />
+</font></Button><PasswordField fx:id="parola" layoutX="148.0" layoutY="387.0" prefHeight="39.0" prefWidth="151.0" /><TextField fx:id="mesaj" layoutX="146.0" layoutY="457.0" prefHeight="31.0" prefWidth="153.0" visible="false" /><Button fx:id="intra" layoutX="369.0" layoutY="457.0" mnemonicParsing="false" onAction="#intrare" prefHeight="80.0" prefWidth="157.0" text="Bine ai venit !" visible="false" /><Label layoutX="32.607322692871094" layoutY="393.0000305175781" text="Parola ta">
+<font>
+<Font name="System Bold Italic" size="18.0" />
+</font></Label><Label layoutX="263.0" layoutY="14.0" prefHeight="36.0" prefWidth="290.0" text="BINE ATI VENIT ">
+<font>
+<Font name="System Bold Italic" size="25.0" />
+</font></Label>
+</children></AnchorPane>
+</children></AnchorPane>
+  </content>
+</TitledPane>
+</children>
+</AnchorPane>

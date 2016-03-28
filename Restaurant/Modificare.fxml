@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="496.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="proiect.ModificareController">
+<children><Label contentDisplay="CENTER" layoutX="143.0" layoutY="48.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="21.0" prefWidth="359.0" text="Modificare ingrediente preparat selectat">
+<font>
+<Font name="System Bold Italic" size="19.0" />
+</font></Label><Label layoutX="52.506103515625" layoutY="117.5" text="Preparat selectat">
+<font>
+<Font name="System Bold Italic" size="15.0" />
+</font></Label><TextField fx:id="prepSelectat" layoutX="253.0" layoutY="113.0" prefHeight="31.0" prefWidth="245.0" /><Label layoutX="45.0" layoutY="179.0" text="Ingrediente initiale">
+<font>
+<Font name="System Bold Italic" size="15.0" />
+</font></Label><TextArea fx:id="initial" layoutX="253.0" layoutY="165.0" prefHeight="111.0" prefWidth="307.0" /><Label layoutX="45.0" layoutY="298.0" prefHeight="21.0" prefWidth="179.0" text="Ingrediente modificate">
+<font>
+<Font name="System Bold Italic" size="15.0" />
+</font></Label>
+<TextArea fx:id="modi" layoutX="253.0" layoutY="309.0" prefHeight="111.0" prefWidth="307.0" /><Button layoutX="86.734375" layoutY="438.5" mnemonicParsing="false" onAction="#modIngred" text="Incarca modificare" /><Button layoutX="470.0" layoutY="439.0" mnemonicParsing="false" onAction="#Iesire" text="Abandon" />
+</children></AnchorPane>

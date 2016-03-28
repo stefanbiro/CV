@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="827.0" prefWidth="1231.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proiect.ConsumatieController">
+<children><HBox layoutY="14.0" prefHeight="72.0" prefWidth="1000.0" AnchorPane.bottomAnchor="628.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+<children><Label text="Masa nr :">
+<HBox.margin>
+<Insets left="50.0" top="30.0" />
+</HBox.margin></Label><TextField fx:id="nrMasa" prefHeight="39.0" prefWidth="46.0" visible="false">
+<HBox.margin>
+<Insets left="15.0" top="25.0" />
+</HBox.margin></TextField>
+</children></HBox><HBox layoutY="94.0" prefHeight="409.0" prefWidth="1000.0">
+<children><HBox prefHeight="409.0" prefWidth="135.0" /><TableView fx:id="lComanda" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="392.0">
+  <columns>
+    <TableColumn fx:id="cscaun" prefWidth="75.0" text="Scaun" />
+    <TableColumn fx:id="cpreparat" prefWidth="155.0" text="Preparat" />
+<TableColumn fx:id="cstare" prefWidth="61.0" text="Stare" />
+<TableColumn fx:id="cpret" prefWidth="100.0" text="Pret" />
+  </columns>
+<HBox.margin>
+<Insets left="-130.0" />
+</HBox.margin>
+<padding>
+<Insets bottom="25.0" />
+</padding>
+</TableView><AnchorPane prefHeight="411.0" prefWidth="607.0">
+<children><ListView fx:id="lPreparate" layoutX="86.0" layoutY="12.0" prefHeight="386.0" prefWidth="380.0" />
+</children></AnchorPane>
+</children></HBox><Label layoutX="43.0" layoutY="511.0" text="Scaun" /><Label layoutX="43.0" layoutY="558.0" text="Preparat" /><Button layoutX="8.234375" layoutY="648.5" mnemonicParsing="false" onAction="#adauga" text="Adauga" />
+<Button layoutX="99.0" layoutY="648.0" mnemonicParsing="false" onAction="#sterge" prefHeight="31.0" prefWidth="86.0" text="Sterge" />
+<Button layoutX="205.0" layoutY="648.0" mnemonicParsing="false" onAction="#trimitereComanda" text="Trimit c-da" />
+<Button layoutX="324.0" layoutY="648.0" mnemonicParsing="false" onAction="#modifica" text="Modifica" /><ComboBox fx:id="numarScaun" editable="true" layoutX="132.0" layoutY="509.0" prefHeight="39.0" prefWidth="86.0" /><HBox layoutX="-32.0" layoutY="59.0" prefHeight="39.0" prefWidth="1000.0">
+<children><Label prefHeight="30.0" prefWidth="188.0" text="Comanda">
+<HBox.margin>
+<Insets bottom="20.0" left="85.0" />
+</HBox.margin>
+<font>
+<Font name="System Bold Italic" size="20.0" />
+</font>
+<padding>
+<Insets bottom="10.0" />
+</padding></Label><Label prefHeight="30.0" prefWidth="186.0" text="Preparate">
+<HBox.margin>
+<Insets left="300.0" />
+</HBox.margin>
+<font>
+<Font name="System Bold Italic" size="20.0" />
+</font></Label><Label prefHeight="28.0" prefWidth="177.0" text="Categorii">
+<HBox.margin>
+<Insets left="300.0" right="40.0" />
+</HBox.margin>
+<font>
+<Font name="System Bold Italic" size="19.0" />
+</font></Label>
+</children></HBox><Button layoutX="616.0" layoutY="648.0" mnemonicParsing="false" onAction="#plataNumerar" text="Plata numerar" /><Button layoutX="762.0" layoutY="648.0" mnemonicParsing="false" onAction="#plataCard" text="Plata card" /><Button layoutX="880.0" layoutY="648.0" mnemonicParsing="false" onAction="#delogare" text="Delogare" /><TextArea fx:id="textArie" layoutX="132.0" layoutY="564.0" prefHeight="72.0" prefWidth="208.0" /><Button layoutX="435.734375" layoutY="647.5" mnemonicParsing="false" onAction="#altaMasa" text="Alta masa" /><ListView fx:id="lCategorii" layoutX="959.0" layoutY="106.0" prefHeight="386.0" prefWidth="236.0" />
+</children></AnchorPane>
