@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="567.0" prefWidth="1047.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cv.StrudiiController">
+<children><Label layoutX="372.0" layoutY="59.0" text="Pregatire profesionala">
+<font>
+<Font name="System Bold Italic" size="28.0" />
+</font></Label><ComboBox fx:id="univ" layoutX="14.0" layoutY="170.0" onAction="#univ" prefHeight="39.0" prefWidth="224.0" promptText="Universitatea" /><ComboBox fx:id="fac" layoutX="312.0" layoutY="170.0" onAction="#fac" prefHeight="39.0" prefWidth="173.0" promptText="Facultatea" /><ComboBox fx:id="spec" layoutX="555.0" layoutY="170.0" onAction="#spec" prefHeight="39.0" prefWidth="173.0" promptText="Specializarea" /><ComboBox fx:id="dur" layoutX="801.0" layoutY="170.0" onAction="#dur" prefHeight="39.0" prefWidth="193.0" promptText="Durata studiilor" /><CheckBox fx:id="post" layoutX="44.93359375" layoutY="322.0" mnemonicParsing="false" text="Studii postuniversitare" /><TextField fx:id="studiiPost" layoutX="372.119140625" layoutY="316.0" visible="false" /><Button layoutX="177.21484375" layoutY="498.5" mnemonicParsing="false" onAction="#salveazaStudii" text="Salveaza" /><Button layoutX="739.28125" layoutY="498.5" mnemonicParsing="false" onAction="#abandon" text="Abandon" />
+</children></AnchorPane>

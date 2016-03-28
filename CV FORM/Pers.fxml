@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="616.0" prefWidth="875.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="cv.PersController">
+<children><Label layoutX="91.0" layoutY="91.0" text="Nume" /><Label layoutX="91.0" layoutY="173.0" text="Prenume" /><Label layoutX="91.0" layoutY="262.0" text="Varsta" /><Label layoutX="91.0" layoutY="350.0" text="Sexul" /><Label layoutX="91.0" layoutY="441.0" text="Orasul" /><Label layoutX="91.0" layoutY="526.0" text="email" /><Label layoutX="316.0" layoutY="21.0" text="Date personale">
+<font>
+<Font name="System Bold Italic" size="28.0" />
+</font></Label><TextField fx:id="nume" layoutX="214.0" layoutY="85.0" /><TextField fx:id="prenume" layoutX="214.0" layoutY="167.0" /><TextField fx:id="varsta" layoutX="214.0" layoutY="256.0" /><TextField fx:id="sexul" layoutX="214.0" layoutY="344.0" /><TextField fx:id="orasul" layoutX="214.0" layoutY="435.0" /><TextField fx:id="email" layoutX="214.0" layoutY="520.0" /><Button layoutX="607.28125" layoutY="166.5" mnemonicParsing="false" onAction="#salveazaDate" text="Salveaza" /><Button layoutX="607.5625" layoutY="310.5" mnemonicParsing="false" onAction="#abandon" text="Abandon" />
+</children></AnchorPane>

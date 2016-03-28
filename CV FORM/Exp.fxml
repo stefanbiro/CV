@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="819.0" prefWidth="944.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cv.ExpController">
+<children><Label layoutX="310.0" layoutY="40.0" text="Experienta profesionala">
+<font>
+<Font name="System Bold Italic" size="29.0" />
+</font></Label><Label layoutX="42.0" layoutY="141.0" text="Firma" /><Label layoutX="668.0" layoutY="141.0" text="Functia" /><Label layoutX="360.0" layoutY="141.0" text="Perioada" /><TextField fx:id="firma" layoutX="42.0" layoutY="179.0" /><TextField fx:id="perioada" layoutX="360.0" layoutY="179.0" /><TextField fx:id="functia" layoutX="668.0" layoutY="179.0" /><TitledPane animated="false" layoutX="42.0" layoutY="262.0" prefHeight="420.0" prefWidth="285.0" text="Activitati">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="380.0" prefWidth="307.0">
+<children><ListView fx:id="disponibile" layoutX="53.5" layoutY="57.0" prefHeight="380.0" prefWidth="307.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+</children></AnchorPane>
+  </content>
+</TitledPane><TitledPane animated="false" layoutX="620.0" layoutY="262.0" prefHeight="420.0" prefWidth="296.0" text="Atributii">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+<children><ListView fx:id="selectate" layoutX="56.0" layoutY="61.0" prefHeight="380.0" prefWidth="294.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+</children></AnchorPane>
+  </content>
+</TitledPane><Button layoutX="433.0" layoutY="461.0" mnemonicParsing="false" onAction="#transfer" prefHeight="39.0" prefWidth="92.0" text="&gt;&gt;" /><Button layoutX="158.0" layoutY="730.0" mnemonicParsing="false" onAction="#salvezExp" text="SalveazaExp" /><Button layoutX="768.28125" layoutY="729.5" mnemonicParsing="false" onAction="#abandon" text="Abandon" /><Button layoutX="433.0" layoutY="529.0" mnemonicParsing="false" onAction="#Goleste" prefHeight="39.0" prefWidth="92.0" text="Goleste" />
+</children></AnchorPane>
